@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Data & cache (large binary / auto-generated)
+data/raw/
+cache/
+data/processed/
+
+# Model binaries (large, reproducible from training)
+models/*.pkl
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Secrets
+.env
+*.env
+
+# Misc
+output.pdf
+plan.md
